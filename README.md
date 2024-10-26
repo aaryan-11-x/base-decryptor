@@ -101,7 +101,7 @@ https://github.com/user-attachments/assets/1224e4a6-22a6-482d-b5e1-3ce367020847
 
 ## Dependencies
 The following packages are required:
-
+```
 base36==0.1.1
 base4096==1.0
 base45==0.4.4
@@ -119,7 +119,7 @@ requests==2.32.3
 rich==13.9.3
 tabulate==0.9.0
 yaspin==3.1.0
-
+```
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
