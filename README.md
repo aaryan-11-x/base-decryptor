@@ -130,6 +130,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 
 ## Contact
-Aaryan Golatkar
+Aaryan Golatkar\n
 Email: aaryangolatkar@gmail.com
 GitHub: https://github.com/aaryan-11-x
