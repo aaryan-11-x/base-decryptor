@@ -1,6 +1,6 @@
 # Base Decryptor
 
-**A CLI tool to decode base-encoded strings.**
+**A CLI tool to automatically detect and decode base-encoded strings.**
 
 ## Table of Contents
 - [Features](#features)
