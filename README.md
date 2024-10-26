@@ -6,6 +6,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Video](#video)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
@@ -91,9 +92,16 @@ base-decryptor --help
 ```
 
 
+## Video
+
+
+https://github.com/user-attachments/assets/1224e4a6-22a6-482d-b5e1-3ce367020847
+
+
+
 ## Dependencies
 The following packages are required:
-
+```
 base36==0.1.1
 base4096==1.0
 base45==0.4.4
@@ -111,7 +119,7 @@ requests==2.32.3
 rich==13.9.3
 tabulate==0.9.0
 yaspin==3.1.0
-
+```
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
@@ -122,6 +130,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 
 ## Contact
-Aaryan Golatkar
-Email: aaryangolatkar@gmail.com
-GitHub: https://github.com/aaryan-11-x
+- Aaryan Golatkar
+- Email: aaryangolatkar@gmail.com
+- GitHub: https://github.com/aaryan-11-x
+- Linkedin: https://www.linkedin.com/in/aaryan-golatkar/
