@@ -6,6 +6,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Video](#video)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
@@ -89,6 +90,13 @@ Help option
 ```bash
 base-decryptor --help
 ```
+
+
+## Video
+
+
+https://github.com/user-attachments/assets/1224e4a6-22a6-482d-b5e1-3ce367020847
+
 
 
 ## Dependencies
