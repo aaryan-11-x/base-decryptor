@@ -19,6 +19,9 @@
   - Base64
   - Base64 URL Safe
   - Base 16 (Hex)
+  - Base 2 (Binary)
+  - Base 8 (Octal)
+  - Base 10 (Decimal)
   - Base32
   - Base36
   - Base45
