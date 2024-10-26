@@ -18,9 +18,9 @@ def decode_single_input(encoded_string, show_all):
         for encoding, decoded_output in results:
             decoded_output_str = str(decoded_output)
             if "Error" in decoded_output_str or "Unable to decode" in decoded_output_str:
-                colorized_results.append((f"[blue]{encoding}[/blue]", decoded_output))  # No color if there's an error
+                colorized_results.append((f"{encoding}", decoded_output))  # No color if there's an error
             else:
-                colorized_results.append((f"[blue]{encoding}[/blue]", f"[green]{decoded_output}[/green]"))
+                colorized_results.append((f"{encoding}", f"{decoded_output}"))
 
         # Display the table with colorized results
         console.print(tabulate(colorized_results, headers=["Encoding", "Decoded Output"], tablefmt="fancy_grid"))

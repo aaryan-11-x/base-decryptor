@@ -1,7 +1,9 @@
 from setuptools import setup, find_packages
 
+with open("README.md", 'r') as f:
+    description = f.read()
 setup(
-    name="base-decryptor",
+    name="base-decrypter",
     version="0.1.0",
     description="A CLI tool to decode base-encoded strings.",
     author="Aaryan Golatkar",
@@ -33,6 +35,8 @@ setup(
             "base-decryptor=base_decryptor:input_handler",  # Update if the function name or module name changes
         ]
     },
+    long_description=description,
+    long_description_content_type="text/markdown",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

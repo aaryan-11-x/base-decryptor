@@ -18,8 +18,20 @@ COLOR_RESET = "\033[0m"  # Reset to default
 COLOR_BOLD = "\033[1m"  # Bold text
 
 
-# Function to decode strings from a file with or without the --all option
 def file_decoder(file, show_all):
+    """
+    Decode strings from a file with or without the --all option.
+
+    Args:
+        file: File object containing the strings to decode.
+        show_all: Boolean indicating whether to show all possible decodings for each string.
+
+    Returns:
+        None
+
+    Prints the decoded strings in a table format with colored output.
+    """
+
     results_list = []  # To store results for all lines in the file
 
     for line in file:
