@@ -1,4 +1,7 @@
 __all__ = [
+    "base2_decoder",
+    "base8_decoder",
+    "base10_decoder",
     "base32_decoder",
     "base64_decoder",
     "base85_decoder",
@@ -16,6 +19,9 @@ __all__ = [
     "base100_decoder"
 ]
 
+from .base2_decoder import decode_base2
+from .base8_decoder import decode_base8
+from .base10_decoder import decode_base10
 from .base64_decoder import decode_base64
 from .base64_urlsafe_decoder import decode_urlsafe_base64
 from .base58_decoder import decode_base58
